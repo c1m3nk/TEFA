@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color:#ffffff;
+    /* overflow-x: hidden; */
 }
 
 
@@ -36,46 +37,30 @@ body {
 
 .judulrec {
     font-family: "Joan";
-    text-align: center;
+    text-align: start;
 }
 
 .font {
     font-family: "Joan";
-    text-align: center;
+    text-align: start;
 }
 
-.rect1 {
-    background-color:#50589C;
-    border: 1px solid #000000;
-    border-radius: 2rem;
-    width: 1300px;
-    height: 400px;
-    position: relative;
-    bottom: 0rem;
-    left: 300px; 
-    top: 300px;
+.font h2 {
+    
 }
 
-.rect2 {
-    background-color:#50589C;
-    border: 1px solid #000000;
-    border-radius: 2rem;
-    width: 1300px;
-    height: 400px;
-    position: relative;
-    bottom: 0rem;
-    left: 300px; 
-    top: 400px;
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;      
+    width: 100%;
 }
 
-.rect3 {
+.rect {
+    margin: 0 auto;
+    padding: 20px;
     background-color:#50589C;
     border: 1px solid #000000;
-    border-radius: 2rem;
-    width: 1300px;
-    height: 400px;
-    position: relative;
-    bottom: 0rem;
-    left: 300px; 
-    top: 500px;
+    border-radius: 15px;
+    width: 80%;
 }
