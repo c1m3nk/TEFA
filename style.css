@@ -7,32 +7,34 @@ body {
 
 
 .navbar {
-    background: #3C467B;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+.logo img {
+  width: 55px; 
+  height: auto;
 }
 
-.navbar ul li {
-    display: inline;
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 1; 
+  gap: 40px; 
 }
 
-.navbar ul li a {
-    color:#F3E9DC;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  transition: 0.3s;
 }
 
-.navbar ul li a:hover {
-    background-color: #D96F32;
-    border-radius: 5px;
+.nav-links a:hover {
+  color: #dcdcdc;
 }
 
 .judulrec {
