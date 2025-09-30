@@ -52,7 +52,7 @@ body {
     height: 400px;
     position: relative;
     bottom: 0rem;
-    left: 380px; 
+    left: 300px; 
     top: 300px;
 }
 
@@ -64,6 +64,18 @@ body {
     height: 400px;
     position: relative;
     bottom: 0rem;
-    left: 380px; 
+    left: 300px; 
     top: 400px;
+}
+
+.rect3 {
+    background-color:#50589C;
+    border: 1px solid #000000;
+    border-radius: 2rem;
+    width: 1300px;
+    height: 400px;
+    position: relative;
+    bottom: 0rem;
+    left: 300px; 
+    top: 500px;
 }
