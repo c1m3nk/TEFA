@@ -37,21 +37,22 @@ body {
 
 .judulrec {
     font-family: "Joan";
-    text-align: start;
+    text-align: center;
 }
 
 .font {
     font-family: "Joan";
-    text-align: start;
+    text-align: center;
 }
 
 .font h2 {
     
 }
 
-.container {
+.container-profile {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     gap: 20px;      
     width: 100%;
 }
