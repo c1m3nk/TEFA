@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#ffffff;
+    background-color: #ffffff;
     /* overflow-x: hidden; */
 }
 
@@ -24,14 +24,14 @@ body {
 }
 
 .navbar ul li a {
-    color:#F3E9DC;
+    color: #F3E9DC;
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
 }
 
 .navbar ul li a:hover {
-    background-color: #D96F32;
+    background-color: #50589C;
     border-radius: 5px;
 }
 
@@ -45,22 +45,20 @@ body {
     text-align: center;
 }
 
-.font h2 {
-    
-}
+.font h2 {}
 
 .container-profile {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;      
+    gap: 20px;
     width: 100%;
 }
 
 .rect {
     margin: 0 auto;
     padding: 20px;
-    background-color:#50589C;
+    background-color: #50589C;
     border: 1px solid #000000;
     border-radius: 15px;
     width: 80%;
