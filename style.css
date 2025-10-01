@@ -12,7 +12,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 15px 20px;
   background-color: #3C467B;
   height: 100px;
   align-items: center;
@@ -26,7 +26,7 @@ nav {
 
 nav .element {
   max-width: 1200px;
-  width: 100%;
+  width: 60%;
 }
 
 nav .element ul {
@@ -46,8 +46,111 @@ nav .element ul li {
 nav .element ul li a {
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.3em;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/hero1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.hero .judul h1 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.hero .tagline h5 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.layanan {
+  text-align: center;
+  padding: 12px;
 }
 
 
+.layanan h3 {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #636CCB;
+  width: 20%;
+  background-position: center;
+  margin: 0 auto;
+  color: white;
+  border-radius: 200px;
+  text-transform: capitalize;
+}
 
+.layanan h4 {
+  font-size: 1.5rem;
+  ;
+  color: #000000;
+  padding-bottom: 100px;
+  padding-top: 45px;
+}
+
+.layanan a {
+  text-decoration: none;
+}
+
+.layanan-items {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.layanan-items .item img {
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.layanan-items .item p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: black;
+}
+
+.koperasi {
+  text-align: center;
+  padding: 12px;
+}
+
+.koperasi img {
+  width: 60rem;
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+
+.kp-card h3 {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #636CCB;
+  width: 30%;
+  background-position: center;
+  margin: 0 auto;
+  color: white;
+  border-radius: 200px;
+  text-transform: capitalize;
+}
