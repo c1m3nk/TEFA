@@ -41,13 +41,47 @@ nav div img {
 
 nav .element ul li {
   list-style: none;
+  position: relative; /* penting buat dropdown */
 }
 
 nav .element ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.3em;
+  padding: 10px 15px;
+  display: block;
 }
+
+/* Dropdown */
+nav .element ul li .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; /* muncul di bawah menu */
+  left: 0;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  z-index: 10;
+}
+
+nav .element ul li .dropdown a {
+  color: #333;
+  font-size: 1em;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+nav .element ul li .dropdown a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Tampilkan dropdown saat hover */
+nav .element ul li:hover .dropdown {
+  display: block;
+}
+
 
 .hero {
   width: 100%;
@@ -289,14 +323,13 @@ footer {
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* kiri & kanan menjauh */
   padding: 30px 50px;
   flex-wrap: wrap;
 }
 
 .footer-col {
-  width: 300px;
-  margin-bottom: 20px;
+  max-width: 400px; /* biar nggak terlalu panjang */
 }
 
 .footer-col h3 {
@@ -304,7 +337,9 @@ footer {
   margin-bottom: 15px;
 }
 
-.footer-col p, .footer-col li, .footer-col a {
+.footer-col p, 
+.footer-col li, 
+.footer-col a {
   font-size: 14px;
   line-height: 1.6;
   color: white;
