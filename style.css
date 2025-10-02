@@ -116,7 +116,7 @@ nav .element ul li:hover .dropdown {
 }
 
 body.home .hero {
-  background: linear-gradient(to top, rgba(60, 70, 123, 0.9),   rgba(60, 70, 123, 0) ),
+  background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
     url("img/hero1.jpg");
   background-size: cover;
   background-position: center;
@@ -124,28 +124,28 @@ body.home .hero {
 
 
 body.profile .hero {
-   background: linear-gradient(to top, rgba(60, 70, 123, 0.9),   rgba(60, 70, 123, 0) ),
+  background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
     url("img/hero2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 body.product .hero {
-   background: linear-gradient(to top, rgba(60, 70, 123, 0.9),   rgba(60, 70, 123, 0) ),
+  background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
     url("img/hero1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 body.struktur .hero {
-  background: linear-gradient(to top, rgba(60, 70, 123, 0.9),   rgba(60, 70, 123, 0) ),
+  background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
     url("img/hero2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 body.credit .hero {
-  background: linear-gradient(to top, rgba(60, 70, 123, 0.9),   rgba(60, 70, 123, 0)),
+  background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
     url("img/hero1.jpg");
   background-size: cover;
   background-position: center;
@@ -515,4 +515,171 @@ footer {
   text-align: center;
   padding: 12px;
   font-size: 14px;
+}
+
+/* =======================================================
+   RESPONSIVE DESIGN
+======================================================= */
+
+/* Tablet (max 992px) */
+@media (max-width: 992px) {
+  nav .element ul {
+    gap: 10px;
+  }
+
+  .layanan-items {
+    flex-wrap: wrap;
+  }
+
+  .sub {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-product {
+    width: 45%;
+  }
+
+  .Kolom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Kolom img {
+    margin-bottom: 20px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+/* HP (max 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  nav .element {
+    width: 100%;
+  }
+
+  nav .element ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero {
+    height: 60vh;
+    padding: 20px;
+  }
+
+  .hero .judul h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+  }
+
+  .hero .tagline h5 {
+    font-size: 1.2em;
+  }
+
+  .layanan h3 {
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+  .layanan-items .item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .koperasi img {
+    width: 100%;
+    height: auto;
+  }
+
+  .kp h2 {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  .sub {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .isi {
+    width: 80%;
+  }
+
+  .card-product {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .box,
+  .center {
+    width: 90%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+/* Extra kecil (max 480px) */
+@media (max-width: 480px) {
+  .hero .judul h1 {
+    font-size: 1.6em;
+  }
+
+  .hero .tagline h5 {
+    font-size: 1em;
+  }
+
+  nav .element ul li a {
+    font-size: 1em;
+  }
+
+  .layanan h3 {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+
+  .isi h3 {
+    font-size: 1.5rem;
+  }
+
+  .isi p {
+    font-size: 0.9rem;
+  }
+
+  .card-product h3 {
+    font-size: 16px;
+  }
+
+  .card-product p {
+    font-size: 14px;
+  }
+
+  .btn-product {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .nama {
+    font-size: 1.5rem;
+  }
+
+  .job,
+  .bio,
+  .sosmed {
+    font-size: 1rem;
+  }
 }
