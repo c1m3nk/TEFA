@@ -312,6 +312,115 @@ h2 {
   text-decoration: none;
 }
 
+.Kolom {
+  padding: 50px;
+  margin: 100px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.Kolom {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Kolom img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+.Kolom .content {
+  flex: 1;
+}
+
+.nama {
+  color: #004292;
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+}
+
+.job {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0 0 15px 0;
+}
+
+.garis {
+  border-top: 3px solid #000;
+  margin: 10px 0 20px 0;
+  opacity: 100%;
+  width: 100%;
+}
+
+.bio {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.sosmed {
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 700;
+}
+
+.box {
+  background-color: #3b3f9e;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 15px auto;
+  width: 350px;          /* ukuran kotak seragam */
+  height: 120px;         /* tinggi kotak seragam */
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-weight: bold;
+
+  display: flex;         /* biar isi bisa rata tengah */
+  justify-content: center;
+  align-items: center;
+  text-align: center;    /* teks tetap di tengah */
+  flex-direction: column;
+}
+
+.box strong {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* rata tengah */
+  gap: 40px;               /* jarak antar box */
+  margin: 30px 0;
+}
+
+.center {
+  margin: 20px auto;
+  width: 400px;
+  height: 130px;           /* lebih tinggi biar beda */
+}
+
 footer {
   background-color: #38457d;
   color: white;
