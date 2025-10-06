@@ -60,7 +60,7 @@ nav .element ul li .dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: white;
+  background-color: #50589C;
   min-width: 180px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -68,7 +68,7 @@ nav .element ul li .dropdown {
 }
 
 nav .element ul li .dropdown a {
-  color: #333;
+  color: white;
   font-size: 1em;
   padding: 10px 15px;
   text-decoration: none;
@@ -76,7 +76,7 @@ nav .element ul li .dropdown a {
 }
 
 nav .element ul li .dropdown a:hover {
-  background-color: #f2f2f2;
+  background-color: #636CCB;
 }
 
 nav .element ul li:hover .dropdown {
@@ -117,7 +117,7 @@ nav .element ul li:hover .dropdown {
 
 body.home .hero {
   background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
-    url("img/hero1.jpg");
+    url("img/hero.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -125,21 +125,35 @@ body.home .hero {
 
 body.profile .hero {
   background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
-    url("img/hero2.jpg");
+    url("img/hero.jpg");
   background-size: cover;
   background-position: center;
 }
 
 body.product .hero {
   background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
-    url("img/hero1.jpg");
+    url("img/hero4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body.alat-tulis .hero {
+  background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
+    url("img/hero5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body.atribut .hero {
+  background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
+    url("img/hero6.jpg");
   background-size: cover;
   background-position: center;
 }
 
 body.struktur .hero {
   background: linear-gradient(to top, rgba(60, 70, 123, 0.9), rgba(60, 70, 123, 0)),
-    url("img/hero2.jpg");
+    url("img/hero3.jpg");
   background-size: cover;
   background-position: center;
 }
